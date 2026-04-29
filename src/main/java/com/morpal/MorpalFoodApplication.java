@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZoshFoodApplication {
+public class MorpalFoodApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZoshFoodApplication.class, args);
+		SpringApplication.run(MorpalFoodApplication.class, args);
 	}
 
 }

@@ -1,10 +1,3 @@
-mvnw
-mvnw.cmd
-.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.properties
-pom.xml
-
-
 
 #!/bin/sh
 # ----------------------------------------------------------------------------
@@ -301,3 +294,9 @@ mv -- "$TMP_DOWNLOAD_DIR/$actualDistributionDir" "$MAVEN_HOME" || [ -d "$MAVEN_H
 
 clean || :
 exec_maven "$@"
+
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml
